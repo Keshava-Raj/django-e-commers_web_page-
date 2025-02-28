@@ -79,10 +79,8 @@ WSGI_APPLICATION = 'Ais_e_bikes.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'modeldb',
-        'USER':'root',
-        'PASSWORD':'4321'
+        'ENGINE': 'django.db.backends.sqlite3', # Here you can use your datatabase details  
+        'NAME': BASE_DIR / 'Raju', 
     }
 }
 
